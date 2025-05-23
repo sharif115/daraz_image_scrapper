@@ -20,3 +20,14 @@ This project scrapes images of products (e.g., **headphones**) from [Daraz Bangl
 Use pip to install Selenium:
 ```bash
 pip install selenium
+## 📁 Folder Structure
+
+```
+daraz-image-scraper/
+├── scrape_images.py
+├── README.md
+└── daraz_images_headphone/
+    ├── image1.jpg
+    ├── image2.jpg
+    └── ...
+```
