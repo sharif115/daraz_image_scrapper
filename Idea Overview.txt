@@ -1,0 +1,17 @@
+Idea Overview (Click-Based Pagination with Selenium)
+Conceptual Steps:
+1. Open the category page in a browser using Selenium.
+
+2. Wait for the products to load.
+
+3. Scrape products from the current page.
+
+4. Find the pagination "Next" button.
+
+5. If it's enabled (i.e., not on the last page):
+
+Click it.
+
+Repeat the scraping for the next page.
+
+6. Stop when the "Next" button is disabled or no longer clickable.
